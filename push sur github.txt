@@ -1,0 +1,147 @@
+
+Moi@Admin-PC MINGW64 ~ (master)
+$ cd Dekstop/
+bash: cd: Dekstop/: No such file or directory
+
+Moi@Admin-PC MINGW64 ~ (master)
+$ cd Desktop/
+
+Moi@Admin-PC MINGW64 ~/Desktop (master)
+$ cd ExerciceBoucles\
+bash: cd: ExerciceBoucles : No such file or directory
+
+Moi@Admin-PC MINGW64 ~/Desktop (master)
+$ cd ExerciceBoucles/
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles (master)
+$ ls
+Exercice/
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles (master)
+$ cd Exercice/
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles/Exercice (master)
+$ ls
+boucles/
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles/Exercice (master)
+$ cd boucles/
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles/Exercice/boucles (master)
+$ ls
+boucles.sln  exercice1/  exercice2/  exercice3/  exercice4/  exercice5/
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles/Exercice/boucles (master)
+$ git init
+Initialized empty Git repository in C:/Users/Moi/Desktop/ExerciceBoucles/Exercice/boucles/.git/
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles/Exercice/boucles (master)
+$ git add *
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles/Exercice/boucles (master)
+$ git commit -m "boucles"
+git[master (root-commit) c16c112] boucles
+ 74 files changed, 687 insertions(+)
+ create mode 100644 boucles.sln
+ create mode 100644 exercice1/App.config
+ create mode 100644 exercice1/Program.cs
+ create mode 100644 exercice1/Properties/AssemblyInfo.cs
+ create mode 100644 exercice1/bin/Debug/exercice1.exe
+ create mode 100644 exercice1/bin/Debug/exercice1.exe.config
+ create mode 100644 exercice1/bin/Debug/exercice1.pdb
+ create mode 100644 exercice1/exercice1.csproj
+ create mode 100644 exercice1/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 exercice1/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 exercice1/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 exercice1/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 exercice1/obj/Debug/exercice1.csproj.CoreCompileInputs.cache
+ create mode 100644 exercice1/obj/Debug/exercice1.csproj.FileListAbsolute.txt
+ create mode 100644 exercice1/obj/Debug/exercice1.csprojAssemblyReference.cache
+ create mode 100644 exercice1/obj/Debug/exercice1.exe
+ create mode 100644 exercice1/obj/Debug/exercice1.pdb
+ create mode 100644 exercice2/App.config
+ create mode 100644 exercice2/Program.cs
+ create mode 100644 exercice2/Properties/AssemblyInfo.cs
+ create mode 100644 exercice2/bin/Debug/exercice2.exe
+ create mode 100644 exercice2/bin/Debug/exercice2.exe.config
+ create mode 100644 exercice2/bin/Debug/exercice2.pdb
+ create mode 100644 exercice2/exercice2.csproj
+ create mode 100644 exercice2/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 exercice2/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 exercice2/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 exercice2/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 exercice2/obj/Debug/exercice2.csproj.CoreCompileInputs.cache
+ create mode 100644 exercice2/obj/Debug/exercice2.csproj.FileListAbsolute.txt
+ create mode 100644 exercice2/obj/Debug/exercice2.csprojAssemblyReference.cache
+ create mode 100644 exercice2/obj/Debug/exercice2.exe
+ create mode 100644 exercice2/obj/Debug/exercice2.pdb
+ create mode 100644 exercice3/App.config
+ create mode 100644 exercice3/Program.cs
+ create mode 100644 exercice3/Properties/AssemblyInfo.cs
+ create mode 100644 exercice3/bin/Debug/exercice3.exe
+ create mode 100644 exercice3/bin/Debug/exercice3.exe.config
+ create mode 100644 exercice3/bin/Debug/exercice3.pdb
+ create mode 100644 exercice3/exercice3.csproj
+ create mode 100644 exercice3/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 exercice3/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 exercice3/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 exercice3/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 exercice3/obj/Debug/exercice3.csproj.CoreCompileInputs.cache
+ create mode 100644 exercice3/obj/Debug/exercice3.csproj.FileListAbsolute.txt
+ create mode 100644 exercice3/obj/Debug/exercice3.csprojAssemblyReference.cache
+ create mode 100644 exercice3/obj/Debug/exercice3.exe
+ create mode 100644 exercice3/obj/Debug/exercice3.pdb
+ create mode 100644 exercice4/App.config
+ create mode 100644 exercice4/Program.cs
+ create mode 100644 exercice4/Properties/AssemblyInfo.cs
+ create mode 100644 exercice4/bin/Debug/exercice4.exe
+ create mode 100644 exercice4/bin/Debug/exercice4.exe.config
+ create mode 100644 exercice4/bin/Debug/exercice4.pdb
+ create mode 100644 exercice4/exercice4.csproj
+ create mode 100644 exercice4/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 exercice4/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 exercice4/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 exercice4/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 exercice4/obj/Debug/exercice4.csproj.CoreCompileInputs.cache
+ create mode 100644 exercice4/obj/Debug/exercice4.csproj.FileListAbsolute.txt
+ create mode 100644 exercice4/obj/Debug/exercice4.csprojAssemblyReference.cache
+ create mode 100644 exercice4/obj/Debug/exercice4.exe
+ create mode 100644 exercice4/obj/Debug/exercice4.pdb
+ create mode 100644 exercice5/App.config
+ create mode 100644 exercice5/Program.cs
+ create mode 100644 exercice5/Properties/AssemblyInfo.cs
+ create mode 100644 exercice5/exercice5.csproj
+ create mode 100644 exercice5/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 exercice5/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 exercice5/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 exercice5/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 exercice5/obj/Debug/exercice5.csproj.CoreCompileInputs.cache
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles/Exercice/boucles (master)
+$ git remote add https://github.com/JohanLadent/Boucles.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles/Exercice/boucles (master)
+$ git remote add origin https://github.com/JohanLadent/Boucles.git
+
+Moi@Admin-PC MINGW64 ~/Desktop/ExerciceBoucles/Exercice/boucles (master)
+$ git push origin master
+Enumerating objects: 68, done.
+Counting objects: 100% (68/68), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (52/52), done.
+Writing objects: 100% (68/68), 17.73 KiB | 907.00 KiB/s, done.
+Total 68 (delta 29), reused 0 (delta 0)
+remote: Resolving deltas: 100% (29/29), done.
+To https://github.com/JohanLadent/Boucles.git
+ * [new branch]      master -> master
