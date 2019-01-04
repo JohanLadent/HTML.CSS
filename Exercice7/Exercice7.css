@@ -1,16 +1,21 @@
+div
+{
+  float: left;
+}
+
 .element:nth-child(1)
 {
     background-color: green;
     width: 75%;
     height: 30px;
-    float: left;
+    
 }
 .element:nth-child(2)
 {
     background-color: blue;
     width: 25%;
     height: 30px;
-    float: right;
+  
 
 }
 .element:nth-child(3)
@@ -18,14 +23,14 @@
     background-color: red;
     width: 35%;
     height : 60px;
-    float: left;
+    
 }
 .element:nth-child(4)
 {
     background-color: orange;
     width: 32.5%;
     height: 30px;
-    float: right;
+    
 }
 .element:nth-child(5)
 
@@ -33,7 +38,7 @@
     background-color: grey;
     width: 32.5%;
     height: 30px;
-    float: right;
+    
 
 }
 .element:nth-child(6)
@@ -41,21 +46,21 @@
     background-color: violet;
     width: 21.666%;
     height: 30px;
-    float: right;
+    
 }
 .element:nth-child(7)
 {
     background-color: orange;
     width: 21.666%;
     height: 30px;
-    float: right;
+    
 }
 .element:nth-child(8)
 {
     background-color: green;
     width: 21.666%;
     height: 30px;
-    float: right;
+    
 }
 .element:nth-child(9)
 {
